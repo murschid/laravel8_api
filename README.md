@@ -1,9 +1,4 @@
-## Laravel API Tutorial
-
-The following documentation is based on my  [Laravel 8 API Tutorial for Beginners]( https://www.youtube.com/watch?v=xvqPEEpRBJ4) where I’ll show you how to work with API’s in Laravel. <br>
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+## Laravel8 API Tutorial
 
 
 ## Topics
@@ -13,12 +8,11 @@ The following documentation is based on my  [Laravel 8 API Tutorial for Beginner
 •	How to setup Laravel Passport <br>
 •	How to create access tokens <br>
 •	How to build resources <br>
-•	CRUD REST API with Laravel <br>
+•	CRUD REST API with Laravel8 <br>
 
 ## Usage <br>
 Setup the repository <br>
 ```
-git clone git@github.com:codewithdary/laravel-api-tutorial.git
 cd bookstore
 composer install
 cp .env.example .env 
@@ -80,11 +74,6 @@ Available HTTP methods on a resource
 | GET         | /movies/{movie}/edit | edit | movies.edit | Edit specific movie |
 | PUT/PATCH         | /movies/{movie} | update | movies.update | Update a specific movies |
 | DELETE         | /movies{delete} | destroy | movies.destroy | Delete a specific movie |
-
-
-## Status codes
-
-I won’t mention all status codes that we’ve got but if you are interested, I recommend you [this article from Laravel Daily](https://laraveldaily.com/laravel-api-errors-and-exceptions-how-to-return-responses/) where they show all available status codes.
 
 ## JSON Api Specification
 
